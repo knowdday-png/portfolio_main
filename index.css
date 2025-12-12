@@ -1,0 +1,94 @@
+header {
+  position: sticky;
+  top: 0;
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: grey;
+  height: 4rem;
+}
+
+#navbar a {
+  padding: 5px 3px;
+  text-decoration: none;
+  color: lightblue;
+  align-self: stretch;
+  line-height: 3.3rem;
+}
+
+#navbar a:hover {
+  color: grey;
+  background-color: lightblue;
+}
+
+a:not([id="profile-link"]) {
+  text-decoration: none;
+  padding: 5px;
+  color: midnightblue;
+}
+
+footer a {
+  background-color: burlywood;
+  text-decoration: none;
+}
+
+h6 {
+    display: inline-block;
+    background-color: antiquewhite;
+    padding: 6px 14px;
+    border-radius: 20px;
+    color: red;
+    font-weight: bolder;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+  background-color: blanchedalmond;
+}
+
+body {
+  margin: 0;
+  background-color: lightblue;
+  /* font-family: 'Montserrat'; */
+}
+
+#project-section {
+  display: flex;
+  align-items: center;
+}
+
+#project-section div {
+  border: 1px solid black;
+  height: 20rem;
+}
+
+.project-tile {
+  padding: 0 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  #navbar {
+    background-color: blanchedalmond;
+  }
+  #navbar a {
+    color: red;
+  }
+  #navbar a:hover {
+    background-color: gold;
+  }
+  body {
+    background-color: gold;
+  }
+}

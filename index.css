@@ -64,6 +64,10 @@ body {
   /* font-family: 'Montserrat'; */
 }
 
+div > p {
+  height: 60%;
+}
+
 #project-section {
   display: flex;
   align-items: center;
@@ -76,6 +80,8 @@ body {
 
 .project-tile {
   padding: 0 5px;
+  width: 50%;
+  height: 50%;
 }
 
 @media only screen and (max-width: 768px) {

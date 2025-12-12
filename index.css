@@ -65,6 +65,7 @@ body {
 }
 
 div > p {
+  overflow-y: auto;
   height: 60%;
 }
 

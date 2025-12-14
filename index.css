@@ -1,3 +1,8 @@
+button {
+  backgrouncolor: inherit;
+  border-color: 1px solid gray;
+}
+
 header {
   position: sticky;
   top: 0;

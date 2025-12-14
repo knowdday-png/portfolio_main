@@ -46,7 +46,18 @@
         Oke Olosii Street, Ikoyi<br/>
         Osun State, Nigeria.
       </address>
-      <button type="button">send email</button>
+      <button id="emailBtn">Send Email</button>
     </footer>
   </body>
+  <script>
+    document.getElementById("emailBtn").addEventListener("click", () => {
+      const to = "example@email.com";
+      const subject = "Hello!";
+      const body = "This is my message.";
+  
+      window.location.href =
+        `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    });
+
+  </script>
 </html>

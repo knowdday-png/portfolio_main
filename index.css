@@ -1,6 +1,6 @@
 #emailBtn {
-  backgrouncolor: transparent;
-  border-color: 1px solid gray;
+  background-color: transparent;
+  border: 1px solid gray;
   color: gray;
 }
 
@@ -36,7 +36,9 @@ a:not([id="profile-link"]) {
 }
 
 footer a {
-  background-color: burlywood;
+  background-color: transparent;
+  /* border: 1px solid gray; */
+  color: gray;
   text-decoration: none;
 }
 

@@ -1,6 +1,7 @@
-button {
-  backgrouncolor: inherit;
+#emailBtn {
+  backgrouncolor: transparent;
   border-color: 1px solid gray;
+  color: gray;
 }
 
 header {
